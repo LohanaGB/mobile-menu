@@ -1,0 +1,56 @@
+//padrões
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: @black;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-color: @wineBerry;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+    @media @notebook {
+        height: 100%;
+    }
+}
+
+.header {
+    &__box {
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        margin: 50px auto;
+        height: 500px;
+        width: 800px;
+        &__menuBox {
+            &__menuList {
+                text-align: center;
+                margin-top: 150px;
+                &__item {
+                    display: inline-block;
+                    padding-right: 15px;
+                    font-family: @font;
+                    font-size: 22px;
+                    a {
+                        color: @white;
+                    }
+                }
+            }
+        }
+    }
+}
