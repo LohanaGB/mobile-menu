@@ -7,6 +7,11 @@
                         <p class="header__box__social">
                             <span class="icon icon-instagram"><a href="#"></a></span>
                         </p>
+
+                        <!-- </div class="header__box__openMenu">
+                            <span class="icon icon-menu"></span>
+                        <div> -->
+
                     </div>
 
                     <div class="col-md-10">
@@ -18,6 +23,12 @@
                                 <li class="header__box__menuBox__menuList__item"><a href="#">PORTFOLIO</a></li>
                                 <li class="header__box__menuBox__menuList__item"><a href="#">CONTACT</a></li>
                             </ul>
+
+                            
+                            <!-- </p class="header__box__menuBox__closeMenu">
+                                <span class="icon icon-close"></span>
+                            <p> -->
+
                         </div>
                     </div>
                 </div>
