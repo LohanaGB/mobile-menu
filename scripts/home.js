@@ -3,6 +3,6 @@ function initHome(){
    
 }
 
-$( document ).ready(function() {
+window.onload = function(){
     initHome();
-});
+}

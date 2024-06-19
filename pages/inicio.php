@@ -23,13 +23,7 @@
 
 </div>
 <?php include 'includes/scripts.php';?>
-<?php 
-$version = time();
-echo
-'
-<script src="scripts/home.js?'.$version.'" ></script>
-'; 
-?>
+
 
 
 </body>

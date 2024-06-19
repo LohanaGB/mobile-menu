@@ -1,20 +1,16 @@
 function openNavMobile(){
-    $('.icon-menu').click(function(){
-        $('.header__navContent').addClass('visible');
-    })
-    closeNavMobile();
+    document.querySelector('.header__box__menuBox').classList.add('visible');
 }
 
 function closeNavMobile(){
-    $('.icon-close').click(function(){
-        $('.header__navContent').removeClass('visible');
-    })
+    document.querySelector('.header__box__menuBox').classList.remove('visible');
 }
 
 function init(){
-    openNavMobile();
+    setTimeout(function(){
+        alert('funcionou');
+    },5000);
 }
-
-$( document ).ready(function() {
-    init();
-});
+window.onload = function(){
+   init();
+}
