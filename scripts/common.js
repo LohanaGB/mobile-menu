@@ -8,7 +8,6 @@ function closeNavMobile(){
 
 function init(){
     setTimeout(function(){
-        alert('funcionou');
     },5000);
 }
 window.onload = function(){
