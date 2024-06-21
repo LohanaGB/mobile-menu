@@ -4,3 +4,5 @@ Estudo de menu mobile reponsivo, utilizando:
 - Base de código em PHP para utilizar includes (componentes reutilizáveis)
 - LESS para estilo
 - JavaScript simples para funções
+
+(FINALIZADO)
